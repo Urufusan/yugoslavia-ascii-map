@@ -1,3 +1,6 @@
+# Yugoslavia ascii map generator main lib
+
+# TODO: rewrite as a class!
 def add_boardpin_emoji(text_argument="./asciiartyugo.mapready.txt", coordinates : tuple = None, ip_address=None, emoji = '📌', is_file = True):
     # Read the contents of the text file
     if is_file:
